@@ -1,28 +1,28 @@
 disabled = false
 languageCode = "ja"
-languageName = "Japanese"
-weight = 1
+languageName = "日本語"
+weight = 3
 title = "issaimaruの雑記"
 
 [params]
-  displayName = "JA"
+  displayName = "日本語"
   isoCode = "ja"
   rtl = false
-  dateFormat = "2006-01-02"
+  dateFormat = "2006年01月02日"
   logo = "images/avatar-icon.jpg"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "issaimaruの雑記"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
+[params.author]
 name = "issaimaru"
 email = "issaimaru.com@gmail.com"
-image = "images/avatar-icon.jpg"
+image = "img/avatar-icon.jpg"
 imageQuality = 96
-headline = "I'm only human"
-bio = "A little bit about you"
+headline = "全弱"
+bio = "森羅万象全てなんもわからん．<br>最近は高レイヤ系のプログラミング極めたい．"
 links = [
-     { email = "issaimaru.com@gmail.com" },
+#     { email = "issaimaru.com@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },

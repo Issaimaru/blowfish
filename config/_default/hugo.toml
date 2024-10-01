@@ -45,10 +45,6 @@ enableEmoji = true
         weight = 100
 
     [[related.indices]]
-        name = "categories"
-        weight = 100
-
-    [[related.indices]]
         name = "series"
         weight = 50
 
