@@ -17,7 +17,8 @@ on:
 
 jobs:
   deploy-portfolio:
-    runs-on: ubuntu-24.04
+  name : Build My Site
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
@@ -32,7 +33,7 @@ jobs:
     - name: Install Hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: 0.128.2
+        hugo-version: "latest"
     - name: Build Portfolio
       run: hugo --minify --environment production
     - name: Deploy Portfolio
