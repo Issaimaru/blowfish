@@ -9,8 +9,9 @@ title = "issaimaruの雑記"
   isoCode = "ja"
   rtl = false
   dateFormat = "2006年01月02日"
-  logo = "images/avatar-icon.jpg"
-  # secondaryLogo = "img/secondary-logo.png"
+  #logo = "img/avatar-icon.jpg"
+  #logo = "img/avatar-icon.jpg"
+  #secondaryLogo = "img/avatar-icon.jpg"
   description = "issaimaruの雑記"
   # copyright = "Copy, _right?_ :thinking_face:"
 
