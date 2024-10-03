@@ -31,11 +31,6 @@ In charge of Circuit and Control
 Department of Information and Communications Engineering (23B)
 {{< /timelineItem >}}
 
-{{< timelineItem icon="comment" header="Future" badge="Future" >}}
-今は弱すぎて書けること少ないけど今後<br>
-スクロールしきれないくらい埋まるといいな><
-{{< /timelineItem >}}
-
 
 
 {{< /timeline >}}
