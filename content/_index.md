@@ -19,6 +19,9 @@ $$
 {{< carousel images="{gallery/*}" aspectRatio="16-9">}}
 旅行写真集
 
+<!-- {{< rotationanime-ball src="gallery/barbecue.jpg" alt="Description of image" angle="360" speed="5">}}
+い -->
+
 {{< timeline >}}
 
 {{< timelineItem icon="graduation-cap" header="NIT, Toyama Collage" badge="2020/04/01 - 2025/03/31" >}}

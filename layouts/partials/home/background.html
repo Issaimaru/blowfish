@@ -42,8 +42,26 @@
                             {{ if not $disableImageOptimization }}
                                 {{ $authorImage = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
                             {{ end }}
-                            <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
-                                alt="{{ $.Site.Params.Author.name | default " Author" }}" src="{{ $authorImage.RelPermalink }}" />
+                            <!--ここでアニメーション化しているよ-->
+                            <style>
+                                @keyframes rotate-animation-icon {
+                                    0% {
+                                        transform: translateX(-200%) rotate(0deg);
+                                    }
+                                    100% {
+                                        transform: translateX(0%) rotate(10800deg);
+                                    }
+                                }
+                                .rotating-image-icon {
+                                  animation: rotate-animation-icon 5s linear;
+                                  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+                                  border-radius: 50%;
+                                }
+                            </style>
+                            
+                            <img src="{{ $authorImage.RelPermalink }}" width="144" height="144" alt="{{ $.Site.Params.Author.name | default " Author" }}" class="rotating-image-icon">
+                            <!-- <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
+                                alt="{{ $.Site.Params.Author.name | default " Author" }}" src="{{ $authorImage.RelPermalink }}" /> -->
                         {{ end }}
                     {{ end }}
                     <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">

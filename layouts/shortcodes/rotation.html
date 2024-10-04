@@ -1,0 +1,15 @@
+<style>
+    @keyframes rotate-animation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate({{ .Get "angle" }}deg);
+      }
+    }
+    .rotating-image {
+      animation: rotate-animation {{ .Get "speed" }}s infinite linear;
+    }
+</style>
+
+<img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="rotating-image">

@@ -1,0 +1,16 @@
+<style>
+    @keyframes rotate-animation {
+        0% {
+            transform: translateX(-100%) rotate(0deg);
+        }
+        100% {
+            transform: translateX(0%) rotate(10800deg);
+        }
+    }
+    .rotating-image {
+      animation: rotate-animation {{ .Get "speed" }}s linear;
+      animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+    }
+</style>
+
+<img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="rotating-image">
