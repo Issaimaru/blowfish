@@ -16,7 +16,7 @@ $$
 \frac{1}{2\pi i}\oint_c f(z)dz = \sum_{i=1}^n Res(f,a_i)
 $$
 
-{{< carousel images="{gallery/*}" >}}
+{{< carousel images="{gallery/*}" aspectRatio="16-9">}}
 旅行写真集
 
 {{< timeline >}}

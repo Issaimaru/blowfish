@@ -3,6 +3,6 @@ title: "ポートフォリオ"
 ---
 
 {{< gallery >}}
-  <img src="gallery/NFC_name.png" class="grid-w33" />
+  <img src="gallery/NFC_name.jpg" class="grid-w33" />
   <img src="gallery/monkey_hunting.png" class="grid-w33" />
 {{< /gallery >}}
