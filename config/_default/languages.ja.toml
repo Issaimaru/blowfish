@@ -49,6 +49,7 @@ links = [
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
+#     { note = "https://note.com/issaimaru" },
 #     { orcid = "https://orcid.org/userid" },
 #     { patreon = "https://www.patreon.com/username" },
 #     { pinterest = "https://pinterest.com/username" },
